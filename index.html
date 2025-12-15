@@ -371,7 +371,7 @@
 
 /* FAQ Container */
 .faq-box {
-    width: 70%;
+    width: 80%;
     margin: 0 auto 50px;
 }
 
@@ -823,6 +823,7 @@
     text-decoration: underline; /* underline only */
 }
 
+
 .image-container {
     width: 85%; 
     text-align: center; 
@@ -834,8 +835,58 @@
     margin-right: auto;
 }
 
+.faq-no-gutters {
+    margin-right: 0;
+    margin-left: 0;
+}
 
+.faq-no-gutters > [class*="col-"] {
+    padding-right: 0;
+    padding-left: 0;
+}
 
+.comparison-table {
+  max-width: 1300px;
+  margin: auto;
+  border-radius: 14px;
+  overflow: hidden;
+}
+
+.compare-row {
+  display: grid;
+  grid-template-columns: 1.3fr 1fr 1fr 1fr;
+  align-items: center;
+  background: #fff;
+}
+
+.compare-row.alt {
+  background: #f8f9fb;
+}
+
+.compare-col {
+  padding: 16px 18px;
+  font-size: 18px;
+}
+
+.feature-col {
+  font-weight: 600;
+  color: #1f2937;
+}
+
+.compare-header {
+  background: #ffffff;
+  font-weight: 700;
+}
+
+.brand {
+  text-align: center;
+  font-weight: 700;
+  border-radius: 8px;
+}
+
+.brand.cashusa { color: #ff7a00; }
+.brand.vivaloan { color: #2563eb; }
+.brand.transunion { color: #1e40af; }
 
 
 
@@ -848,7 +899,7 @@
 
             <!-- LOGO LEFT -->
             <a href="./">
-                <img src="assets/Automatehom_Dark Blue_logo.png" alt="Logo" class="logo">
+                <img src="assets/logo-purple.png" alt="Logo" class="logo">
             </a>
 
             <!-- BUTTON RIGHT -->
@@ -872,10 +923,10 @@
                 <!-- RIGHT SIDEBAR -->
                 <div class="col-lg-6">
                     <div class="author-block">
-                            <a href="https://www.adt.com/" target="_blank"><img src="assets/adt-logo-hero.png" class="author-photo" alt="Rae Theodore"></a>
+                            <a href="https://cashusa.com/" target="_blank"><img src="assets/CashUsa-logo.png" class="author-photo" alt="Rae Theodore"></a>
                             <div>
-                                <a href="https://www.adt.com/" target="_blank" style="text-decoration: none; color: #000000;"><div class="author-name">ADT</div></a>
-                                <div class="author-sub">Helping protect the moments</div>
+                                <a href="https://cashusa.com/" target="_blank" style="text-decoration: none; color: #000000;"><div class="author-name">CashUSA Loan Program</div></a>
+                                <div class="author-sub">Fast, Flexible Personal Loan Solutions</div>
                             </div>
                         </div>
 
@@ -883,22 +934,22 @@
 
                     <div class="ps-lg-5 mt-5 mt-lg-20">
 
-                        <h3 class="sidebar-title">Why Choose Smart Home Protection?</h3>
+                        <h3 class="sidebar-title">Why Choose the CashUSA Loan Program??</h3>
                         <p>
-                            With the right security system, you can enjoy instant alerts, live camera access, automated controls, and continuous professional monitoring. 
+                            CashUSA connects you with a wide network of trusted lenders offering fast and flexible personal loan options. CashUSA helps you find loan solutions that fit your financial needs all through a simple and secure process. 
                         </p>
 
-                        <h3 class="sidebar-title mt-4">What Homeowners Love</h3>
+                        <h3 class="sidebar-title mt-4">What Borrowers Appreciate</h3>
                         <ul>
-                            <li>Smart cameras with mobile alerts and HD video</li>
-                            <li>Smart home controls for lighting, locks, and thermostats</li>
-                            <li>24/7 professional monitoring for peace of mind</li>
-                            <li>Protection designed for comfort, safety, and convenience</li>
+                            <li>Access to multiple lenders through one easy application</li>
+                            <li>Loan options available even with less-than-perfect credit</li>
+                            <li>Fast approval decisions and quick funding</li>
+                            <li>Flexible loan amounts and repayment terms</li>
 
                         </ul>
 
                     </div>
-                    <a href="https://www.adt.com/" target="_blank" class="cta-btn"><span class="txt1">Get Your Security Recommendation</span> →</a>
+                    <a href="https://cashusa.com/" target="_blank" class="cta-btn"><span class="txt1">Start Your CashUSA Request</span> →</a>
                 </div>
 
             </div>
@@ -909,37 +960,44 @@
             <div class="row">
 
                 <div class="col-lg-6">
-                    <div class="author-block">
-                            <a href="https://www.adt.com/" target="_blank"><img src="assets/adt-logo-hero.png" class="author-photo" alt="Rae Theodore"></a>
-                            <div>
-                                <a href="https://www.adt.com/" target="_blank" style="text-decoration: none; color: #000000;"><div class="author-name">ADT</div></a>
-                                <div class="author-sub">Helping protect the moments</div>
-                            </div>
-                        </div>
+    <div class="author-block">
+        <a href="https://www.vivaloan.com/" target="_blank">
+            <img src="assets/vivaloan-logo.png" class="author-photo" alt="Viva Loan">
+        </a>
+        <div>
+            <a href="https://www.vivaloan.com/" target="_blank" style="text-decoration: none; color: #000000;">
+                <div class="author-name">Viva Loan</div>
+            </a>
+            <div class="author-sub">Simple access to personal loan options</div>
+        </div>
+    </div>
 
-                        <div class="author-divider"></div>
+    <div class="author-divider"></div>
 
-                    <div class="ps-lg-5 mt-5 mt-lg-20">
+    <div class="ps-lg-5 mt-5 mt-lg-20">
 
-                        <h3 class="sidebar-title">Why Choose Smart Home Protection?</h3>
-                        <p>
-                            With the right security system, you can enjoy instant alerts, live camera access, automated controls, and continuous professional monitoring. 
-                        </p>
+        <h3 class="sidebar-title">Why Choose Viva Loan?</h3>
+        <p>
+            Viva Loan helps you explore personal loan options through a fast and easy online request process. It connects borrowers with potential lenders offering flexible solutions for everyday financial needs, emergencies, and unexpected expenses.
+        </p>
 
-                        <h3 class="sidebar-title mt-4">What Homeowners Love</h3>
-                        <ul>
-                            <li>Smart cameras with mobile alerts and HD video</li>
-                            <li>Smart home controls for lighting, locks, and thermostats</li>
-                            <li>24/7 professional monitoring for peace of mind</li>
-                            <li>Protection designed for comfort, safety, and convenience</li>
+        <h3 class="sidebar-title mt-4">What Borrowers Appreciate</h3>
+        <ul>
+            <li>Quick and simple online loan request process</li>
+            <li>Access to multiple lending options in one place</li>
+            <li>Loan opportunities for a wide range of credit profiles</li>
+            <li>Flexible loan amounts and repayment terms</li>
+        </ul>
 
-                        </ul>
+    </div>
 
-                    </div>
-                    <a href="https://www.adt.com/" target="_blank" class="cta-btn"><span class="txt1">Get Your Security Recommendation</span> →</a>
-                </div>
+    <a href="https://www.vivaloan.com/" target="_blank" class="cta-btn">
+        <span class="txt1">Check Viva Loan Options</span> →
+    </a>
+</div>
+
                 <div class="col-lg-6">
-                    <img src="assets/cashusa1-hero.png" class="hero-img" alt="">
+                    <img src="assets/viva-loan-hero.png" class="hero-img" alt="">
                 </div>
 
             </div>
@@ -951,40 +1009,47 @@
 
                 <!-- LEFT CONTENT -->
                 <div class="col-lg-6">
-                    <img src="assets/cashusa-hero.png" class="hero-img" alt="">
+                    <img src="assets/tu-hero.png" class="hero-img" alt="">
                 </div>
 
                 <!-- RIGHT SIDEBAR -->
                 <div class="col-lg-6">
-                    <div class="author-block">
-                            <a href="https://www.adt.com/" target="_blank"><img src="assets/adt-logo-hero.png" class="author-photo" alt="Rae Theodore"></a>
-                            <div>
-                                <a href="https://www.adt.com/" target="_blank" style="text-decoration: none; color: #000000;"><div class="author-name">ADT</div></a>
-                                <div class="author-sub">Helping protect the moments</div>
-                            </div>
-                        </div>
+    <div class="author-block">
+        <a href="https://www.transunion.com/" target="_blank">
+            <img src="assets/tu-logo.png" class="author-photo" alt="TransUnion Smart Loan">
+        </a>
+        <div>
+            <a href="https://www.transunion.com/" target="_blank" style="text-decoration: none; color: #000000;">
+                <div class="author-name">TransUnion Smart Loan</div>
+            </a>
+            <div class="author-sub">Smarter access to personal loan options</div>
+        </div>
+    </div>
 
-                        <div class="author-divider"></div>
+    <div class="author-divider"></div>
 
-                    <div class="ps-lg-5 mt-5 mt-lg-20">
+    <div class="ps-lg-5 mt-5 mt-lg-20">
 
-                        <h3 class="sidebar-title">Why Choose Smart Home Protection?</h3>
-                        <p>
-                            With the right security system, you can enjoy instant alerts, live camera access, automated controls, and continuous professional monitoring. 
-                        </p>
+        <h3 class="sidebar-title">Why Choose TransUnion Smart Loan?</h3>
+        <p>
+            TransUnion Smart Loan helps you explore personal loan opportunities using credit-aware matching technology. It connects you with potential lenders while helping you understand how your credit profile may impact available loan options.
+        </p>
 
-                        <h3 class="sidebar-title mt-4">What Homeowners Love</h3>
-                        <ul>
-                            <li>Smart cameras with mobile alerts and HD video</li>
-                            <li>Smart home controls for lighting, locks, and thermostats</li>
-                            <li>24/7 professional monitoring for peace of mind</li>
-                            <li>Protection designed for comfort, safety, and convenience</li>
+        <h3 class="sidebar-title mt-4">What Borrowers Value</h3>
+        <ul>
+            <li>Credit-informed loan matching experience</li>
+            <li>Access to personal loan options from trusted lenders</li>
+            <li>Insights to help understand credit and borrowing choices</li>
+            <li>Secure, transparent, and easy online process</li>
+        </ul>
 
-                        </ul>
+    </div>
 
-                    </div>
-                    <a href="https://www.adt.com/" target="_blank" class="cta-btn"><span class="txt1">Get Your Security Recommendation</span> →</a>
-                </div>
+    <a href="https://www.transunion.com/" target="_blank" class="cta-btn">
+        <span class="txt1">Explore TransUnion Credits</span> →
+    </a>
+</div>
+
 
             </div>
         </div>
@@ -998,108 +1063,142 @@
             <div class="col-md-12">
     
         <div class="image-container">
-    <a href="https://www.vivint.com/" target="_blank">
-        <img src="assets/vivint-logo-hero.png" alt="" class="img-fluid">
+    <a href="https://www.cashusa.com/" target="_blank">
+        <img src="assets/CashUsa-logo.png" width="200px" alt="" class="img-fluid">
     </a>
 </div>
     <div class="col-md-10 text-center">
-    <h2 class="mt-3"><a href="https://www.vivint.com/" target="_blank">Vivint</a></h2>
+    <h2 class="mt-3 mb-5"><a href="https://www.cashusa.com/" target="_blank">CashUSA</a></h2>
     </div>
     
     <h4 class="facts-title mt-4">
-    What is Vivint&nbsp;?</h4>
-    <p>Vivint is a full-scale smart-home and security system provider offering a broad lineup of devices and services: security cameras, sensors (door/window, motion, glass-break), alarms (smoke, CO, water), as well as smart-home devices such as smart locks, lighting, thermostats, garage-door controls, and more.</p>
-    <p>All devices — cameras, sensors, smart-home devices — are integrated under a unified control system (the “Vivint Smart Hub” + mobile app), letting homeowners monitor and manage their entire home environment from one interface.</p>
+    What is CashUSA&nbsp;?</h4>
+    <p>CashUSA is an online personal loan matching service that helps borrowers connect with a broad network of independent lenders. It is designed to make finding loan options faster, simpler, and more accessible for individuals seeking financial flexibility.</p>
+    <p>Through a single secure online request, CashUSA allows users to explore potential loan offers without visiting multiple lender websites, making it easier to compare options based on individual financial needs.</p>
 
     <h4 class="facts-title mt-5">
-    Security and Smart Home Integration&nbsp;:</h4>
+    Loan Access & Flexibility&nbsp;:</h4>
     <ul class="facts-list">
-        <li>Vivint’s security cameras (indoor, outdoor, doorbell) are among their top offerings. The “Outdoor Camera Pro,” for instance, uses weather-resistant hardware, intelligent motion detection, and high-quality video capture to monitor perimeters.</li>
-        <li>Their “Smart Deter” feature is a stand-out — when sensors detect suspicious movement or possible intrusion, the system uses lights, sound, and alerts to deter potential intruders before they attempt a break-in.</li>
-        <li>Beyond security, Vivint supports home automation: you can control lights, climate (thermostat), door locks, garage doors, and other smart-home components from the Vivint app, even remotely (e.g. when away from home).</li>
-        <!-- <li>Veterans account for about <strong>33%</strong> of all mesothelioma cancer cases.</li> -->
-        <li>This combination makes Vivint more than just an alarm system — it’s a unified smart-home ecosystem.</li>
+        <li>CashUSA provides access to multiple personal loan options that can be used for emergencies, bills, repairs, travel, or other everyday financial needs.</li>
+        <li>The platform works with lenders that consider a wide range of credit profiles, including those with limited or challenged credit histories.</li>
+        <li>Loan amounts and repayment terms vary by lender, giving borrowers flexibility to choose options that best match their situation.</li>
+        <li>This approach allows CashUSA to serve as a convenient gateway to multiple lending opportunities from one place.</li>
     </ul>
+    <div class="row">
+        <div class="col-md-4">
     <h4 class="facts-title mt-5">
-    Installation & Monitoring&nbsp;:</h4>
+    Application & Funding&nbsp;:</h4>
     <div class="numbered-item">
         <div class="number-circle">1</div>
         <div class="number-text mt-2">
-            Vivint emphasizes <strong>professional installation</strong> — a trained technician comes, installs all equipment (cameras, sensors, hub, smart-home devices), and ensures proper integration and configuration.
+            Borrowers begin by completing a short online request form, providing basic personal and financial details through a secure platform.
         </div>
     </div>
     <div class="numbered-item">
         <div class="number-circle">2</div>
         <div class="number-text mt-2">
-            Once installed, the system is monitored 24/7. The baseline monitoring plan reportedly starts at <strong>US $19.99/month</strong> (in addition to equipment cost) for basic services — though typical plans are often higher depending on number of devices and cameras.
+            After submission, CashUSA matches the request with available lenders. Decisions are often provided quickly, sometimes within minutes.
         </div>
     </div>
     <div class="numbered-item">
         <div class="number-circle">3</div>
         <div class="number-text mt-2">
-            Financing options are available: Vivint partners with financing firms to let customers pay for equipment over time.
+            If a loan offer is accepted, funds may be deposited as soon as the next business day, depending on the lender’s policies.
         </div>
     </div>
-    <h4 class="facts-title mt-5">
-    Pros&nbsp;:</h4>
-    <ul class="facts-list pros-list">
-        <li>Advanced smart-home automation + unified control of security, cameras, locks, lights, thermostat, etc.</li>
-        <li>High-quality, AI-enabled cameras + proactive “Smart Deter” threat prevention</li>
-        <li>Professional installation ensures proper setup and integration</li>
-        <li>Unified management: everything controllable via a single hub/app remotely, including smart-home automation</li>
-    </ul>
-    <h4 class="facts-title mt-2">
-    Cons&nbsp;:</h4>
-    <ul class="facts-list cons-list">
-        <li>Premium pricing — equipment is often more expensive than basic systems.</li>
-        <li>Requires long-term contract (often up to 60 months) if financed.</li>
-        <li>Some users may find pricing not transparent, and overall cost can be high especially with multiple cameras/sensors.</li>
-        <li>Not ideal for those who just want a basic alarm system — might be overkill (and over budget) for small homes or simple needs.</li>
-    </ul>
-    <h4 class="facts-title mt-5">
-    Who Is Vivint Best For&nbsp;?</h4>
+    </div>
+    <div class="col-md-1"></div>
+    <div class="col-md-3">
+        <div class="mt-5">
+        <div class="custom-card p-4">
+            <a href="https://www.cashusa.com/" target="_blank"><img src="assets/vivint-side-card.png" class="card-img-top" alt=""></a>
+            <div class="card-body">
+                <h5 class="card-title fw-bold mt-3">Explore Loan Options</h5>
+                <p class="card-text">
+                    Find personal loan opportunities designed to meet a wide range of financial needs.
+                </p>
+                <a href="https://www.cashusa.com/" target="_blank" class="btn btn-success w-100">
+                    Check Loan Availability →
+                </a>
+            </div>
+        </div>
+    </div>
+    </div>
+    <div class="col-md-1"></div>
+    <div class="col-md-3">
+        <h4 class="facts-title mt-5">
+    Who Is CashUSA Best For&nbsp;?</h4>
     <ul class="facts-list">
-        <li>Want more than just burglary alarms — they want a full smart-home experience (security + automation + convenience)</li>
-        <li>Prefer everything professionally installed, configured, and integrated by experts</li>
-        <li>Are comfortable paying a premium and likely plan to stay long-term (justifying initial cost and contract)</li>
-        <li>Want to control cameras, sensors, locks, lights, thermostat — even remotely (when away) — all from a single app</li>
+        <li>Individuals looking for quick access to personal loan options without visiting multiple lender websites</li>
+        <li>Borrowers who want flexibility in loan amounts and repayment terms</li>
+        <li>People with varying credit backgrounds seeking potential lending opportunities</li>
+        <li>Those who prefer a fast, online, and straightforward loan request experience</li>
     </ul>
 
+    </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <h4 class="facts-title mt-2">
+    Pros&nbsp;:</h4>
+    <ul class="facts-list pros-list">
+        <li>Single online request connects borrowers with multiple lenders</li>
+        <li>Fast decision process and potential next-business-day funding</li>
+        <li>Accessible to a wide range of credit profiles</li>
+        <li>Flexible loan uses for personal, emergency, or unexpected expenses</li>
+    </ul>
+    </div>
+    <div class="col-md-6">
+        <h4 class="facts-title mt-2">
+    Cons&nbsp;:</h4>
+    <ul class="facts-list cons-list">
+        <li>Loan terms, rates, and availability vary by lender.</li>
+        <li>Not all applicants will qualify for a loan offer.</li>
+        <li>Interest rates may be higher depending on credit profile.</li>
+        <li>CashUSA itself is not a direct lender.</li>
+    </ul>
+    </div>
+            </div>
+        </div>
+    </div>
+
     <h4 class="facts-title mt-5">
-    Vivint – Key Features
+    CashUSA – Key Features
 </h4>
 
 <ul class="diagnosis-list">
     <li>
-        <strong>Advanced Smart-Home Automation :</strong> Vivint works as a complete smart-home ecosystem — control lights, locks, thermostats, garage doors, and cameras from one app.
+        <strong>Multiple Lender Access :</strong> Submit one request and get matched with a network of independent lenders.
     </li>
 
     <li>
-        <strong>AI-Powered Security Cameras :</strong> High-resolution indoor & outdoor cameras with smart motion detection, person alerts, night vision, and “Smart Deter” technology.
+        <strong>Flexible Loan Use :</strong> Funds may be used for emergencies, bills, travel, repairs, or other personal needs.
     </li>
 
     <li>
-        <strong>Fully Integrated System :</strong> Every device — sensors, cameras, door locks, alarms — communicates inside one unified system for smooth automation.
+        <strong>Fast Online Process :</strong> Simple application with quick lender responses.
     </li>
 
     <li>
-        <strong>24/7 Professional Monitoring :</strong> Round-the-clock monitoring with immediate alerts, emergency dispatch, and instant notifications to your phone.
+        <strong>Wide Credit Consideration :</strong> Lenders may work with borrowers across different credit ranges.
     </li>
 
     <li>
-        <strong>Proactive Threat Prevention :</strong> Vivint’s “Smart Deter” uses lights, sirens, and AI to scare intruders before they attempt a break-in.
+        <strong>Secure Platform :</strong> Personal and financial information is handled through encrypted, secure systems.
     </li>
 
     <li>
-        <strong>Smart Hub + Mobile App Control :</strong> Central touchscreen hub + app to manage the entire home from anywhere — lock doors, view cameras, or change temperature.
+        <strong>No Obligation :</strong> Reviewing loan offers does not require accepting any agreement.
     </li>
 
     <li>
-        <strong>Professional System Setup :</strong> A certified technician installs all devices, configures them, and integrates the full system without user hassle.
+        <strong>Potential Fast Funding :</strong> Approved loans may be funded as soon as the next business day.
     </li>
 
     <li>
-        <strong>Smart Notifications & Activity Logs :</strong> Receive real-time alerts for doors opening, motion detected, packages delivered, garage left open, etc.
+        <strong>Convenient Comparison :</strong> Evaluate loan terms and choose what fits your needs best.
     </li>
 </ul>
 
@@ -1109,204 +1208,176 @@
 
             <!-- LEFT -->
             <div class="col-md-7 p-4">
-                <h4 class="fw-bold text-primary-dark mb-2">Upgrade to Smarter Home Security</h4>
+                <h4 class="fw-bold text-primary-dark mb-2">Find Personal Loan Options Today</h4>
                 <p class="text-secondary mb-4">
-                    Take the first step toward intelligent monitoring, smart-home automation, and advanced protection for every corner of your home.
+                    Take the next step toward financial flexibility by exploring loan opportunities tailored to your needs.
                 </p>
-                <a href="https://www.vivint.com/" target="_blank" class="btn btn-success px-4 py-2 fw-bold">
-                    Get Your Free Smart Home Review →
+                <a href="https://www.cashusa.com/" target="_blank" class="btn btn-success px-4 py-2 fw-bold">
+                    Get Your Loan Options →
                 </a>
             </div>
 
             <!-- RIGHT IMAGE -->
             <div class="col-md-5 p-4">
-                <a href="https://www.vivint.com/" target="_blank"><img src="assets/vivint-cta-card.png" class="card-image" alt=""></a>
+                <a href="https://www.cashusa.com/" target="_blank"><img src="assets/vivint-cta-card.png" class="card-image" alt=""></a>
             </div>
 
         </div>
     </div>
-    
-
-
-
-    
-
-
 </div>
 
-            <!-- <div class="col-md-8">
-    <div class="compensation-card">
-        <div class="row g-0 align-items-center">
-
-            
-            <div class="col-md-7 p-4">
-                <h4 class="fw-bold text-primary-dark mb-2">Get the Compensation You Deserve</h4>
-                <p class="text-secondary mb-4">
-                    Take the first step toward compensation and justice for mesothelioma.
-                </p>
-                <a href="#" class="btn btn-success px-4 py-2 fw-bold">
-                    Get a Free Case Review →
-                </a>
-            </div>
-
-            
-            <div class="col-md-5 text-end">
-                <img src="assets/meso case review.png" class="card-image" alt="">
-            </div>
-
-        </div>
-    </div>
-</div> -->
-<div class="col-md-1">
-
-</div>
-
-
-
-            <!-- RIGHT SIDE CARD (STICKY) -->
-            <div class="col-md-3">
-    <div class="sticky-top" style="top: 100px;">
-        <div class="custom-card p-4">
-            <a href="https://www.vivint.com/" target="_blank"><img src="assets/vivint-side-card.png" class="card-img-top" alt=""></a>
-            <div class="card-body">
-                <h5 class="card-title fw-bold mt-3">Upgrade Home Security</h5>
-                <p class="card-text">
-                    Take the first step toward home secuirity for every corner of your home.
-                </p>
-                <a href="https://www.vivint.com/" target="_blank" class="btn btn-success w-100">
-                    Get Smart Home Review →
-                </a>
-            </div>
-        </div>
-    </div>
-</div>
-
+<div class="col-md-1"></div>
 
         </div>
     </div>
 </section>
 
 <section class="py-5">
-    <div class="container">
+    <div class="container mt-5">
         <div class="row">
 
             <!-- LEFT SIDE CONTENT -->
-            <div class="col-md-8">
-    <div class="row">
-        <div class="col-md-2">
-    <a href="https://www.adt.com/" target="_blank"><img src="assets/adt-logo-hero.png" alt=""></a>
+            <div class="col-md-12">
+    
+        <div class="image-container">
+    <a href="https://www.vivaloan.com/" target="_blank">
+        <img src="assets/VivaLoan-logo.png" width="200px" alt="" class="img-fluid">
+    </a>
+</div>
+    <div class="col-md-10 text-center">
+    <h2 class="mt-3 mb-5"><a href="https://www.vivaloan.com/" target="_blank">VivaLoan</a></h2>
     </div>
-    <div class="col-md-10">
-    <h2 class="mt-3"><a href="https://www.adt.com/" target="_blank">ADT</a></h2>
-    </div>
-    </div>
+    
     <h4 class="facts-title mt-4">
-    What is ADT&nbsp;?
-</h4>
-<p>ADT is a long-established home security company offering alarm systems, sensors, monitoring, and — depending on the customer’s choice — smart-home integrations. Compared to Vivint, ADT tends to emphasize reliable, flexible security systems, often with affordability and customization as core benefits.</p>
-<p>ADT’s solutions are built around dependable alarm systems, optional smart-home tools, and highly trusted monitoring services designed to protect homes across different budgets and needs.</p>
+    What is VivaLoan&nbsp;?</h4>
+    <p>VivaLoan is an online personal loan matching platform designed to help individuals explore loan options through a fast, simple, and secure request process. It connects borrowers with a network of independent lenders offering a variety of loan solutions.</p>
+    <p>By submitting one online request, users can review potential loan offers without the need to apply separately with multiple lenders, making the process more efficient and convenient.</p>
 
-<h4 class="facts-title mt-5">
-    Security, Monitoring & Flexibility&nbsp;:
-</h4>
-<ul class="facts-list">
-    <li>ADT is often praised for its monitoring infrastructure: multiple monitoring centers, reliable alarm response, and a variety of plan options to suit different budgets and needs.</li>
-    <li>The system tends to be flexible: you can choose basic alarm + sensor packages, or extend your setup with additional devices depending on your requirements.</li>
-    <li>Installation can be more customizable — ADT offers professional installation, but many plans and packages allow more freedom in selection, making it easier to tailor for different home sizes and needs.</li>
-    <li>Its flexibility makes it ideal for users who want dependable home security without committing to expensive, fully automated smart-home ecosystems.</li>
-    <li>Overall, ADT focuses on reliable, accessible home protection rather than premium AI-driven automation.</li>
-</ul>
-
-<h4 class="facts-title mt-5">
-    Pricing & Affordability&nbsp;:
-</h4>
-<div class="numbered-item">
-    <div class="number-circle">1</div>
-    <div class="number-text mt-2">
-        ADT is frequently cited as a more budget-friendly and predictable security option — especially for users who only need basic alarms and sensors without high-end automation.
+    <h4 class="facts-title mt-5">
+    Loan Access & Flexibility&nbsp;:</h4>
+    <ul class="facts-list">
+        <li>VivaLoan provides access to personal loan opportunities that may be used for emergencies, bills, repairs, or other financial needs.</li>
+        <li>The platform works with lenders that consider a wide range of credit backgrounds, including borrowers with limited or challenged credit.</li>
+        <li>Loan amounts, rates, and repayment terms vary by lender, allowing flexibility based on individual circumstances.</li>
+        <li>This approach helps borrowers explore multiple lending options from a single, streamlined platform.</li>
+    </ul>
+    <div class="row">
+        <div class="col-md-4">
+    <h4 class="facts-title mt-5">
+    Application & Funding&nbsp;:</h4>
+    <div class="numbered-item">
+        <div class="number-circle">1</div>
+        <div class="number-text mt-2">
+            Complete a short and secure online loan request by providing basic personal and financial details.
+        </div>
     </div>
-</div>
-<div class="numbered-item">
-    <div class="number-circle">2</div>
-    <div class="number-text mt-2">
-        Lower upfront installation fees and flexible packages make ADT attractive for homeowners who want cost-effective security solutions.
+    <div class="numbered-item">
+        <div class="number-circle">2</div>
+        <div class="number-text mt-2">
+            VivaLoan matches your request with available lenders, often providing quick responses and potential offers.
+        </div>
     </div>
-</div>
-<div class="numbered-item">
-    <div class="number-circle">3</div>
-    <div class="number-text mt-2">
-        ADT’s long-standing monitoring service offers solid value for homeowners who want dependable 24/7 protection at a reasonable monthly cost.
+    <div class="numbered-item">
+        <div class="number-circle">3</div>
+        <div class="number-text mt-2">
+            If a lender’s offer is accepted, funds may be deposited as soon as the next business day, depending on lender terms.
+        </div>
     </div>
-</div>
+    </div>
+    <div class="col-md-1"></div>
+    <div class="col-md-3">
+        <div class="mt-5">
+        <div class="custom-card p-4">
+            <a href="https://www.vivaloan.com/" target="_blank"><img src="assets/vivint-side-card.png" class="card-img-top" alt=""></a>
+            <div class="card-body">
+                <h5 class="card-title fw-bold mt-3">Find Loan Options</h5>
+                <p class="card-text">
+                    Explore personal loan opportunities tailored to your financial needs.
+                </p>
+                <a href="https://www.vivaloan.com/" target="_blank" class="btn btn-success w-100">
+                    Check Loan Options →
+                </a>
+            </div>
+        </div>
+    </div>
+    </div>
+    <div class="col-md-1"></div>
+    <div class="col-md-3">
+        <h4 class="facts-title mt-5">
+    Who Is VivaLoan Best For&nbsp;?</h4>
+    <ul class="facts-list">
+        <li>Borrowers seeking quick access to personal loan options online</li>
+        <li>Individuals who want to compare multiple lenders through one request</li>
+        <li>People with various credit profiles looking for potential loan opportunities</li>
+        <li>Those who prefer a fast, simple, and digital loan request experience</li>
+    </ul>
 
-<h4 class="facts-title mt-5">
-    Pros&nbsp;:
-</h4>
-<ul class="facts-list pros-list">
-    <li>Generally more affordable compared to premium smart-home-first systems.</li>
-    <li>Flexible packages — from basic alarm systems to more comprehensive setups.</li>
-    <li>Well-established monitoring infrastructure backed by decades of experience.</li>
-    <li>Ideal for users seeking cost-effective, no-frills security with predictable pricing.</li>
-</ul>
+    </div>
+    </div>
 
-<h4 class="facts-title mt-2">
-    Cons&nbsp;:
-</h4>
-<ul class="facts-list cons-list">
-    <li>Less advanced in smart-home automation compared to high-end providers like Vivint.</li>
-    <li>Advanced smart-home features may require third-party add-ons, which may not integrate seamlessly.</li>
-    <li>Doesn’t offer the “everything in one app” smart-home + security experience found in some modern systems.</li>
-    <li>Not ideal for tech-heavy users who want full automation, AI-enabled cameras, or a unified smart-home ecosystem.</li>
-</ul>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <h4 class="facts-title mt-2">
+    Pros&nbsp;:</h4>
+    <ul class="facts-list pros-list">
+        <li>Single online request connects borrowers with multiple lenders</li>
+        <li>Fast response times and potential next-business-day funding</li>
+        <li>Accessible to a wide range of credit profiles</li>
+        <li>Flexible use of funds for personal or emergency expenses</li>
+    </ul>
+    </div>
+    <div class="col-md-6">
+        <h4 class="facts-title mt-2">
+    Cons&nbsp;:</h4>
+    <ul class="facts-list cons-list">
+        <li>Loan terms and interest rates vary by lender.</li>
+        <li>Not all applicants will qualify for loan offers.</li>
+        <li>Interest rates may be higher depending on credit history.</li>
+        <li>VivaLoan is not a direct lender.</li>
+    </ul>
+    </div>
+            </div>
+        </div>
+    </div>
 
-<h4 class="facts-title mt-5">
-    Who Is ADT Best For&nbsp;?
-</h4>
-<ul class="facts-list">
-    <li>Homeowners focused on reliable, affordable security rather than advanced smart-home automation.</li>
-    <li>Those who want flexible basic alarm and sensor packages without paying for premium extras.</li>
-    <li>Users who prefer a trusted, time-tested monitoring infrastructure with predictable pricing.</li>
-    <li>People with smaller homes or limited budgets who value solid essential security over full smart-home features.</li>
-</ul>
-
-<h4 class="facts-title mt-5">
-    ADT – Key Features
+    <h4 class="facts-title mt-5">
+    VivaLoan – Key Features
 </h4>
 
 <ul class="diagnosis-list">
     <li>
-        <strong>Reliable 24/7 Alarm Monitoring :</strong> ADT is known for long-time trusted monitoring centers providing quick emergency response.
+        <strong>Multiple Lender Network :</strong> Access loan options from a network of independent lenders with one request.
     </li>
 
     <li>
-        <strong>Traditional + Smart Security Options :</strong> Choose between basic alarm systems or upgraded smart packages including cameras, smart locks, and sensors.
+        <strong>Flexible Loan Use :</strong> Funds may be used for emergencies, bills, travel, or everyday expenses.
     </li>
 
     <li>
-        <strong>Flexible Equipment Packages :</strong> Customize your system with door/window sensors, motion detectors, doorbell cameras, flood sensors, and more.
+        <strong>Quick Online Process :</strong> Simple application with fast lender responses.
     </li>
 
     <li>
-        <strong>Lower Upfront Cost Options :</strong> Generally more affordable than high-end smart-home systems, making it easier for homeowners on a budget.
+        <strong>Broad Credit Consideration :</strong> Lenders may work with borrowers across different credit ranges.
     </li>
 
     <li>
-        <strong>Professional Installation Available :</strong> Technicians can install your full system or help configure your chosen package.
+        <strong>Secure Information Handling :</strong> Personal data is protected through secure, encrypted systems.
     </li>
 
     <li>
-        <strong>Works With Smart Home Devices :</strong> Supports integration with Google Home, Alexa, and certain third-party smart-home devices.
+        <strong>No Obligation to Accept :</strong> Review loan offers without any requirement to proceed.
     </li>
 
     <li>
-        <strong>Mobile App Alerts & Controls :</strong> Manage alarms, get security alerts, arm/disarm your system remotely, and check home status from the ADT app.
+        <strong>Potential Fast Funding :</strong> Approved loans may be funded as soon as the next business day.
     </li>
 
     <li>
-        <strong>Strong Legacy & Trust Factor :</strong> Over 145+ years in the security industry with millions of homes monitored — highest brand trust in home security.
+        <strong>Convenient Comparison :</strong> Compare offers and choose what best fits your financial situation.
     </li>
 </ul>
-
 
     <!-- ⭐ COMPENSATION CARD INSIDE THE LEFT COLUMN ⭐ -->
     <div class="compensation-card mt-5">
@@ -1314,259 +1385,379 @@
 
             <!-- LEFT -->
             <div class="col-md-7 p-4">
-                <h4 class="fw-bold text-primary-dark mb-2">Get the Home Protection You Deserve</h4>
+                <h4 class="fw-bold text-primary-dark mb-2">Explore Personal Loan Options</h4>
                 <p class="text-secondary mb-4">
-                    Take the first step toward stronger home security, real-time monitoring, and trusted protection backed by decades of experience.
+                    Take the next step toward financial flexibility by reviewing loan opportunities available through VivaLoan.
                 </p>
-                <a href="https://www.adt.com/" target="_blank" class="btn btn-success px-4 py-2 fw-bold">
-                    Get Your Free Security Review →
+                <a href="https://www.vivaloan.com/" target="_blank" class="btn btn-success px-4 py-2 fw-bold">
+                    Get Loan Options →
                 </a>
             </div>
 
             <!-- RIGHT IMAGE -->
             <div class="col-md-5 p-4">
-                <a href="https://www.adt.com/" target="_blank"><img src="assets/adt-cta-card.png" class="card-image" alt=""></a>
+                <a href="https://www.vivaloan.com/" target="_blank"><img src="assets/vivint-cta-card.png" class="card-image" alt=""></a>
             </div>
 
         </div>
     </div>
-    
-
-
-
-    
-
-
 </div>
 
-            <!-- <div class="col-md-8">
-    <div class="compensation-card">
+<div class="col-md-1"></div>
+
+        </div>
+    </div>
+</section>
+
+<section class="py-5">
+    <div class="container mt-5">
+        <div class="row">
+
+            <!-- LEFT SIDE CONTENT -->
+            <div class="col-md-12">
+    
+        <div class="image-container">
+    <a href="https://www.transunion.com/" target="_blank">
+        <img src="assets/tu-logo.png" width="200px" alt="" class="img-fluid">
+    </a>
+</div>
+    <div class="col-md-10 text-center">
+    <h2 class="mt-3 mb-5"><a href="https://www.transunion.com/" target="_blank">TransUnion Smart Loan</a></h2>
+    </div>
+    
+    <h4 class="facts-title mt-4">
+    What is TransUnion Smart Loan&nbsp;?</h4>
+    <p>TransUnion Smart Loan is a credit-informed loan discovery service designed to help individuals explore personal loan options while gaining insights into how their credit profile may influence available offers.</p>
+    <p>The platform connects users with potential lenders and provides a transparent, educational approach to borrowing, allowing consumers to review loan opportunities with better awareness of credit factors.</p>
+
+    <h4 class="facts-title mt-5">
+    Credit-Informed Loan Matching&nbsp;:</h4>
+    <ul class="facts-list">
+        <li>TransUnion Smart Loan uses credit insights to help match borrowers with potential personal loan options.</li>
+        <li>Borrowers can explore offers while understanding how credit scores and profiles may impact loan availability.</li>
+        <li>Loan terms, rates, and amounts vary by lender, offering flexibility based on individual financial standing.</li>
+        <li>This approach emphasizes informed borrowing rather than blind applications.</li>
+    </ul>
+    <div class="row">
+        <div class="col-md-4">
+    <h4 class="facts-title mt-5">
+    How the Process Works&nbsp;:</h4>
+    <div class="numbered-item">
+        <div class="number-circle">1</div>
+        <div class="number-text mt-2">
+            Start by providing basic information to explore loan options through a secure and guided process.
+        </div>
+    </div>
+    <div class="numbered-item">
+        <div class="number-circle">2</div>
+        <div class="number-text mt-2">
+            Review potential loan opportunities matched using credit-aware insights and lender criteria.
+        </div>
+    </div>
+    <div class="numbered-item">
+        <div class="number-circle">3</div>
+        <div class="number-text mt-2">
+            If you choose to proceed, you may continue directly with a lender to finalize loan details.
+        </div>
+    </div>
+    </div>
+    <div class="col-md-1"></div>
+    <div class="col-md-3">
+        <div class="mt-5">
+        <div class="custom-card p-4">
+            <a href="https://www.transunion.com/" target="_blank"><img src="assets/vivint-side-card.png" class="card-img-top" alt=""></a>
+            <div class="card-body">
+                <h5 class="card-title fw-bold mt-3">Explore Smart Loan Options</h5>
+                <p class="card-text">
+                    Discover loan opportunities with greater insight into your credit profile.
+                </p>
+                <a href="https://www.transunion.com/" target="_blank" class="btn btn-success w-100">
+                    View Loan Options →
+                </a>
+            </div>
+        </div>
+    </div>
+    </div>
+    <div class="col-md-1"></div>
+    <div class="col-md-3">
+        <h4 class="facts-title mt-5">
+    Who Is TransUnion Smart Loan Best For&nbsp;?</h4>
+    <ul class="facts-list">
+        <li>Borrowers who want to understand how credit impacts loan options</li>
+        <li>Individuals seeking a transparent and informed borrowing experience</li>
+        <li>People exploring personal loans without applying blindly</li>
+        <li>Consumers who value credit education alongside loan discovery</li>
+    </ul>
+
+    </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <h4 class="facts-title mt-2">
+    Pros&nbsp;:</h4>
+    <ul class="facts-list pros-list">
+        <li>Credit-informed loan matching experience</li>
+        <li>Transparent and educational borrowing approach</li>
+        <li>Access to potential personal loan options from trusted lenders</li>
+        <li>Helps borrowers make more informed financial decisions</li>
+    </ul>
+    </div>
+    <div class="col-md-6">
+        <h4 class="facts-title mt-2">
+    Cons&nbsp;:</h4>
+    <ul class="facts-list cons-list">
+        <li>Loan approval is not guaranteed.</li>
+        <li>Loan terms and interest rates depend on lender criteria.</li>
+        <li>Some users may not qualify for available offers.</li>
+        <li>TransUnion Smart Loan is not a direct lender.</li>
+    </ul>
+    </div>
+            </div>
+        </div>
+    </div>
+
+    <h4 class="facts-title mt-5">
+    TransUnion Smart Loan – Key Features
+</h4>
+
+<ul class="diagnosis-list">
+    <li>
+        <strong>Credit-Aware Matching :</strong> Uses credit insights to align borrowers with suitable loan options.
+    </li>
+
+    <li>
+        <strong>Transparent Loan Discovery :</strong> Explore offers with better understanding of credit factors.
+    </li>
+
+    <li>
+        <strong>Educational Experience :</strong> Encourages informed financial decision-making.
+    </li>
+
+    <li>
+        <strong>Secure Platform :</strong> Personal data handled through trusted, secure systems.
+    </li>
+
+    <li>
+        <strong>No Obligation :</strong> Review loan options without being required to accept.
+    </li>
+
+    <li>
+        <strong>Trusted Brand :</strong> Backed by TransUnion’s credit expertise and data insights.
+    </li>
+
+    <li>
+        <strong>Convenient Online Access :</strong> Explore loan options digitally at your own pace.
+    </li>
+
+    <li>
+        <strong>Direct Lender Continuation :</strong> Proceed directly with lenders if you choose an offer.
+    </li>
+</ul>
+
+    <!-- ⭐ COMPENSATION CARD INSIDE THE LEFT COLUMN ⭐ -->
+    <div class="compensation-card mt-5">
         <div class="row g-0 align-items-center">
 
-            
+            <!-- LEFT -->
             <div class="col-md-7 p-4">
-                <h4 class="fw-bold text-primary-dark mb-2">Get the Compensation You Deserve</h4>
+                <h4 class="fw-bold text-primary-dark mb-2">Explore Smarter Loan Options</h4>
                 <p class="text-secondary mb-4">
-                    Take the first step toward compensation and justice for mesothelioma.
+                    Discover personal loan opportunities with greater clarity and credit awareness through TransUnion Smart Loan.
                 </p>
-                <a href="#" class="btn btn-success px-4 py-2 fw-bold">
-                    Get a Free Case Review →
+                <a href="https://www.transunion.com/" target="_blank" class="btn btn-success px-4 py-2 fw-bold">
+                    Get Smart Loan Options →
                 </a>
             </div>
 
-            
-            <div class="col-md-5 text-end">
-                <img src="assets/meso case review.png" class="card-image" alt="">
+            <!-- RIGHT IMAGE -->
+            <div class="col-md-5 p-4">
+                <a href="https://www.transunion.com/" target="_blank"><img src="assets/vivint-cta-card.png" class="card-image" alt=""></a>
             </div>
 
         </div>
     </div>
-</div> -->
-<div class="col-md-1">
-
 </div>
 
-
-
-            <!-- RIGHT SIDE CARD (STICKY) -->
-            <div class="col-md-3">
-    <div class="sticky-top" style="top: 100px;">
-        <div class="custom-card p-4">
-            <a href="https://www.adt.com/" target="_blank"><img src="assets/adt-side-card.png" class="card-img-top" alt=""></a>
-            <div class="card-body">
-                <h5 class="card-title fw-bold mt-3">Get Home Protection</h5>
-                <p class="card-text">
-                    Take the first step toward stronger home security by decades of experience.
-                </p>
-                <a href="https://www.adt.com/" target="_blank" class="btn btn-success w-100">
-                    Get Security Review →
-                </a>
-            </div>
-        </div>
-    </div>
-</div>
-
+<div class="col-md-1"></div>
 
         </div>
     </div>
 </section>
+
+
+
 <div class="container">
 <section class="compare-section mt-5">
-    <h3 class="facts-title1 mb-5">Vivint vs ADT — Key Feature Comparison</h3>
+  <h3 class="facts-title1 text-center mb-5">
+    CashUSA vs VivaLoan vs TransUnion Smart Loan — Key Comparison
+  </h3>
 
-    <!-- Column Labels -->
-    <div class="feature-row header-row">
-        <div class="feature-title"></div>
-        <a href="https://www.vivint.com/" target="_blank" style="text-decoration: none;"><div class="feature-box company-tag vivint-tag"><strong>Vivint</strong></div></a>
-        <a href="https://www.adt.com/" target="_blank" style="text-decoration: none;"><div class="feature-box company-tag adt-tag"><strong>ADT</strong></div></a>
+  <div class="comparison-table">
+
+    <!-- Header -->
+    <div class="compare-row compare-header">
+      <div class="compare-col feature-col"></div>
+      <a href="https://www.cashusa.com/" style="text-decoration: none;"><div class="compare-col brand cashusa">CashUSA</div></a>
+      <a href="https://www.vivaloan.com/" style="text-decoration: none;"><div class="compare-col brand vivaloan">VivaLoan</div></a>
+      <a href="https://www.transunion.com/" style="text-decoration: none;"><div class="compare-col brand transunion">TransUnion Smart Loan</div></a>
     </div>
 
-    <div class="feature-row">
-        <div class="feature-title">Smart-home Integration</div>
-        <div class="feature-box">
-            <span class="icon-check">✅</span>
-            Strong — unified smart-home + security ecosystem with automation and remote control via app/hub
-        </div>
-        <div class="feature-box">
-            <span class="icon-warn">⚠️</span>
-            More limited — mainly focused on core security; advanced automation often needs add-ons or third-party gear
-        </div>
+    <!-- Row 1 -->
+    <div class="compare-row">
+      <div class="compare-col feature-col">Loan Discovery</div>
+      <div class="compare-col">✅ Multi-lender matching</div>
+      <div class="compare-col">✅ Simple lender connection</div>
+      <div class="compare-col">✅ Credit-informed discovery</div>
     </div>
 
-    <div class="feature-row">
-        <div class="feature-title">Security Cameras & Sensor Quality</div>
-        <div class="feature-box">
-            <span class="icon-check">✅</span>
-            High-end — AI-enabled cameras, Smart Deter, advanced motion detection, premium sensors
-        </div>
-        <div class="feature-box">
-            <span class="icon-check">✅</span>
-            Good — reliable monitoring & sensors, but not as modern or AI-driven as premium systems
-        </div>
+    <!-- Row 2 -->
+    <div class="compare-row alt">
+      <div class="compare-col feature-col">Credit Consideration</div>
+      <div class="compare-col">✅ Broad (incl. challenged credit)</div>
+      <div class="compare-col">✅ Wide credit range</div>
+      <div class="compare-col">⚠️ Credit-profile focused</div>
     </div>
 
-    <div class="feature-row">
-        <div class="feature-title">Installation Approach</div>
-        <div class="feature-box">
-            <span class="icon-tool">🛠️</span>
-            Professional installation only — ensures proper setup & configuration by experts
-        </div>
-        <div class="feature-box">
-            <span class="icon-check">✅</span>
-            More flexible — professional or simpler setup based on package
-        </div>
+    <!-- Row 3 -->
+    <div class="compare-row">
+      <div class="compare-col feature-col">Speed & Convenience</div>
+      <div class="compare-col">✅ Fast responses, next-day funding</div>
+      <div class="compare-col">✅ Quick online process</div>
+      <div class="compare-col">✅ Guided, informed experience</div>
     </div>
 
-    <div class="feature-row">
-        <div class="feature-title">Pricing / Affordability</div>
-        <div class="feature-box">
-            <span class="icon-money">💰</span>
-            Premium — higher equipment cost + long-term contracts; great value for automation-heavy needs
-        </div>
-        <div class="feature-box">
-            <span class="icon-check">✅</span>
-            Budget-friendly — lower upfront cost, flexible plans & ideal for essential home security
-        </div>
+    <!-- Row 4 -->
+    <div class="compare-row alt">
+      <div class="compare-col feature-col">Transparency</div>
+      <div class="compare-col">⚠️ Speed-focused</div>
+      <div class="compare-col">⚠️ Basic transparency</div>
+      <div class="compare-col">✅ Strong credit education</div>
     </div>
 
-    <div class="feature-row">
-        <div class="feature-title">Best For</div>
-        <div class="feature-box">
-            Smart-home enthusiasts, large homes, automation lovers wanting all-in-one control
-        </div>
-        <div class="feature-box">
-            Homeowners wanting simple, reliable, cost-effective security without automation extras
-        </div>
+    <!-- Row 5 -->
+    <div class="compare-row">
+      <div class="compare-col feature-col">Best For</div>
+      <div class="compare-col">Fast access to loan options</div>
+      <div class="compare-col">Simple, flexible borrowing</div>
+      <div class="compare-col">Credit-aware borrowers</div>
     </div>
 
-    <div class="compare-btn-wrap">
-        <a href="https://www.vivint.com/" target="_blank" class="compare-btn">Compare Plans</a>
-    </div>
+  </div>
 
+  <div class="compare-btn-wrap text-center mt-4">
+    <a href="https://www.cashusa.com/" target="_blank" class="compare-btn">
+      Compare Loan Options →
+    </a>
+  </div>
 </section>
+
+
 </div>
 
 
 
 
 <section class="faq-section mt-5">
+    
+    <h2 class="faq-title text-center">FAQs</h2>
 
-    <h2 class="faq-title">FAQs</h2>
+    <div class="row faq-no-gutters">
+        
+        <div class="col-md-6">
+            <div class="faq-box">
+                
+                <div class="faq-item">
+                    <button class="faq-question">
+                        What is the difference between All 3 Loans?
+                        <span class="faq-icon text-white">
+                            <i class="bi bi-chevron-down faq-arrow"></i>
+                        </span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>CashUSA and VivaLoan focus on fast, simple access to personal loan options through multi-lender matching, while TransUnion Smart Loan emphasizes credit-informed loan discovery with added insights to help borrowers understand how their credit profile may affect available options.</p>
+                    </div>
+                </div>
 
-    <div class="faq-box">
-       <div class="faq-item active">
-    <button class="faq-question">
-        What is the main difference between ADT and Vivint?
-        <span class="faq-icon text-white">
-    <i class="bi bi-chevron-down faq-arrow"></i>
-</span>
-    </button>
-    <div class="faq-answer">
-        <p>Vivint focuses on advanced smart-home automation with AI-powered cameras and unified controls, while ADT prioritizes reliable, affordable home security with flexible monitoring and equipment options.</p>
+                <div class="faq-item">
+                    <button class="faq-question">
+                        Which platform is best for quick access to loan options?
+                        <span class="faq-icon text-white">
+                            <i class="bi bi-chevron-down faq-arrow"></i>
+                        </span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>CashUSA and VivaLoan are generally better for speed and convenience, offering a quick online request process that connects borrowers with multiple lenders efficiently.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question">
+                        Do these services work with different credit profiles?
+                        <span class="faq-icon text-white">
+                            <i class="bi bi-chevron-down faq-arrow"></i>
+                        </span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Yes. CashUSA and VivaLoan work with lenders that consider a wide range of credit backgrounds, while TransUnion Smart Loan is more credit-focused and helps users understand how credit factors influence loan eligibility.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-6">
+            <div class="faq-box">
+                
+                <div class="faq-item">
+                    <button class="faq-question">
+                        Is TransUnion Smart Loan a direct lender?
+                        <span class="faq-icon text-white">
+                            <i class="bi bi-chevron-down faq-arrow"></i>
+                        </span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>No. TransUnion Smart Loan is not a direct lender. It helps users explore loan options using credit insights and then connects them with potential lenders if they choose to proceed.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question">
+                        How quickly can funds be received after approval?
+                        <span class="faq-icon text-white">
+                            <i class="bi bi-chevron-down faq-arrow"></i>
+                        </span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Funding speed varies by lender, but some CashUSA and VivaLoan lenders may deposit funds as soon as the next business day after approval. TransUnion Smart Loan timelines depend on the lender selected.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question">
+                        Is there any obligation to accept a loan offer?
+                        <span class="faq-icon text-white">
+                            <i class="bi bi-chevron-down faq-arrow"></i>
+                        </span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>No. All three platforms allow borrowers to review potential loan offers without any obligation to accept. You remain in full control of whether to proceed with a lender.</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
     </div>
-</div>
-
-<div class="faq-item">
-    <button class="faq-question">
-        Which system is better for complete smart-home automation?
-        <span class="faq-icon text-white">
-    <i class="bi bi-chevron-down faq-arrow"></i>
-</span>
-    </button>
-    <div class="faq-answer">
-        <p>Vivint is better for automation—offering integrated control of locks, lights, thermostats, garage doors, and cameras through one unified app and smart hub.</p>
-    </div>
-</div>
-
-<div class="faq-item">
-    <button class="faq-question">
-        Which option is more budget-friendly for homeowners?
-        <span class="faq-icon text-white">
-    <i class="bi bi-chevron-down faq-arrow"></i>
-</span>
-    </button>
-    <div class="faq-answer">
-        <p>ADT is generally more affordable, offering lower upfront costs and flexible packages ideal for essential home security without premium automation features.</p>
-    </div>
-</div>
-
-<div class="faq-item">
-    <button class="faq-question">
-        Do both ADT and Vivint provide 24/7 professional monitoring?
-        <span class="faq-icon text-white">
-    <i class="bi bi-chevron-down faq-arrow"></i>
-</span>
-    </button>
-    <div class="faq-answer">
-        <p>Yes. Both Vivint and ADT offer round-the-clock monitoring with emergency alerts, rapid response, and real-time notifications for security risks.</p>
-    </div>
-</div>
-
-<div class="faq-item">
-    <button class="faq-question">
-        Which company offers better security cameras and detection features?
-        <span class="faq-icon text-white">
-    <i class="bi bi-chevron-down faq-arrow"></i>
-</span>
-    </button>
-    <div class="faq-answer">
-        <p>Vivint offers more advanced cameras with AI detection, Smart Deter technology, and superior motion analytics, making it ideal for high-tech home surveillance.</p>
-    </div>
-</div>
-
-<div class="faq-item">
-    <button class="faq-question">
-        Is professional installation required for both systems?
-        <span class="faq-icon text-white">
-    <i class="bi bi-chevron-down faq-arrow"></i>
-</span>
-    </button>
-    <div class="faq-answer">
-        <p>Vivint requires professional installation for all systems, while ADT provides both professional and simpler installation options depending on the chosen package.</p>
-    </div>
-</div>
-
-<div class="faq-item">
-    <button class="faq-question">
-        Which system is better for small homes or basic security needs?
-        <span class="faq-icon text-white">
-    <i class="bi bi-chevron-down faq-arrow"></i>
-</span>
-    </button>
-    <div class="faq-answer">
-        <p>ADT is ideal for small homes or basic security needs because it offers essential alarms, sensors, and monitoring at a lower cost without requiring advanced automation.</p>
-    </div>
-</div>
-
-
+    
 </section>
+
 
 <footer class="footer-section mt-5">
     <div class="container py-5">
 
         <!-- LOGO -->
         <div class="footer-logo mb-4">
-            <a href="./"><img src="assets/Automatehom_White.png" alt="Logo" class="footer-logo-img"></a>
+            <a href="./"><img src="assets/logo-white.png" alt="Logo" class="footer-logo-img"></a>
         </div>
 
         <div class="row">
@@ -1575,10 +1766,10 @@
             <div class="col-md-12 text-center">
                 <h5 class="footer-heading">What Drives Us</h5>
                 <p class="footer-text">
-                    At AutomateHom, we are committed to giving homeowners clear, reliable, and easy-to-understand guidance in a world filled with complex security choices. Whether you’re comparing monitoring plans, exploring smart-home systems, or learning how modern safety features work, our goal is to simplify the process. We focus on delivering insights that help you protect your home with confidence and choose the solutions that genuinely match your needs.
+                    <strong>At Loanlav</strong>, we believe access to clear information is the foundation of smart financial decision-making. Our platform brings together research-driven content, comparisons, and educational resources designed to help users navigate personal loan options with confidence.
                 </p>
                 <p class="footer-text">
-                    We believe that every home deserves strong, dependable protection and knowledge is the first step. That’s why AutomateHom brings together expert reviews, real system comparisons, and practical home-security tips, all designed to help you stay informed. From smart automation to professional monitoring services, we break down the essential details so you can make decisions rooted in clarity, not confusion.  Our mission at AutomateHom is to empower you with information that truly matters. As home-security technology continues to evolve, we work to keep you up to date with the most trusted solutions, the latest innovations, and the features that offer real value. Whether you’re upgrading your current setup or exploring options for the first time, we’re here to support your journey toward a safer, smarter home.
+                    We aim to simplify the discovery process by highlighting meaningful differences between platforms, explaining how credit profiles may affect eligibility, and outlining what users can expect at each step of the journey. Loanlav does not act as a lender or broker; our role is to inform, educate, and support users as they explore potential financial solutions offered by third parties.By staying focused on accuracy and relevance, Loanlav helps users stay informed without pressure—so every decision is made with clarity and confidence.
                 </p>
                 <!-- <p class="footer-text">
                    Our mission at AutomateHom is to empower you with information that truly matters. As home-security technology continues to evolve, we work to keep you up to date with the most trusted solutions, the latest innovations, and the features that offer real value. Whether you’re upgrading your current setup or exploring options for the first time, we’re here to support your journey toward a safer, smarter home. 
@@ -1630,7 +1821,7 @@
     <!-- COPYRIGHT BAR -->
     <div class="footer-bottom">
         <div class="container text-center text-white py-3">
-            © 2025 <a href="./">Automatehom</a> — All Rights Reserved.
+            © 2025 <a href="./">Loanlav</a> — All Rights Reserved.
         </div>
     </div>
 </footer>
