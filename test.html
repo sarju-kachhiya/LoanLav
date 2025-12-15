@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <style>
+        .loan-hero {
+  background: #FFF6E6;
+  padding: 120px 0;
+  position: relative;
+  overflow: hidden;
+}
+
+/* curved background */
+/* .loan-hero::after {
+  content: "";
+  position: absolute;
+  right: -180px;
+  top: 50%;
+  width: 520px;
+  height: 520px;
+  background: #FFF6E6;
+  border-radius: 50%;
+  transform: translateY(-50%);
+} */
+
+.hero-title {
+  font-size: 54px;
+  font-weight: 800;
+  color: #0B1C4D;
+  line-height: 1.1;
+  margin-bottom: 25px;
+}
+
+.hero-subtext {
+  font-size: 17px;
+  max-width: 520px;
+  color: #333;
+  line-height: 1.7;
+  margin-bottom: 35px;
+}
+
+.hero-btn {
+  background: #0AAE35;
+  color: #fff;
+  padding: 15px 34px;
+  font-size: 15px;
+  font-weight: 600;
+  border-radius: 8px;
+  text-decoration: none;
+}
+
+.hero-trust {
+  margin-top: 12px;
+  font-size: 13px;
+  color: #555;
+}
+
+/* FLOATING CARD */
+.loan-float-card {
+  background: #fff;
+  padding: 40px;
+  border-radius: 18px;
+  box-shadow: 0 35px 70px rgba(0,0,0,0.12);
+  position: relative;
+  top: 40px;
+}
+
+.loan-float-card h4 {
+  font-size: 22px;
+  font-weight: 700;
+  color: #0B1C4D;
+  margin-bottom: 25px;
+}
+
+/* steps */
+.step {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  margin-bottom: 14px;
+}
+
+.step span {
+  width: 34px;
+  height: 34px;
+  background: #0B1C4D;
+  color: #fff;
+  border-radius: 50%;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.step p {
+  margin: 0;
+  font-size: 14.5px;
+  color: #333;
+}
+
+/* providers */
+.loan-providers {
+  display: flex;
+  gap: 10px;
+  margin-top: 25px;
+}
+
+.provider {
+  background: #F2F4F8;
+  padding: 8px 14px;
+  border-radius: 6px;
+  font-size: 13px;
+  font-weight: 600;
+  color: #0B1C4D;
+}
+
+
+
+    </style>
+</head>
+<body>
+    <section class="loan-hero">
+  <div class="container">
+    <div class="row align-items-center">
+
+      <!-- LEFT CONTENT -->
+      <div class="col-lg-7">
+        <h1 class="hero-title">
+          Personal Loans<br>
+          Made Simple & Fast
+        </h1>
+
+        <p class="hero-subtext">
+          Compare flexible loan options from trusted providers in one place.
+          Whether you need emergency funds or extra cash, get matched with
+          solutions designed around your needs.
+        </p>
+
+        <div class="hero-cta-wrap">
+          <a href="#" class="hero-btn">See Loan Offers →</a>
+          <p class="hero-trust">✔ Secure process · ✔ No hidden charges</p>
+        </div>
+      </div>
+
+      <!-- RIGHT FLOATING CARD -->
+      <div class="col-lg-5">
+        <div class="loan-float-card">
+
+          <h4>How It Works</h4>
+
+          <div class="step">
+            <span>1</span>
+            <p>Answer a few quick questions</p>
+          </div>
+
+          <div class="step">
+            <span>2</span>
+            <p>Compare available loan options</p>
+          </div>
+
+          <div class="step">
+            <span>3</span>
+            <p>Choose the offer that fits you best</p>
+          </div>
+
+          <div class="loan-providers">
+            <div class="provider">CashUSA</div>
+            <div class="provider">VivaLoan</div>
+            <div class="provider">TransUnion</div>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+
+</body>
+</html>
